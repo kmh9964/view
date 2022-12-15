@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+	background: yellow;
+}
+
+/* css 선택자
+		-- 자주 쓰는것 : 1~5
+		1)공용 선택자 : *
+		2) 태그 선택자 :p
+		3)클래스 선택자 : .text
+		4) 아이디 선택자 :  
+	
+
+
+	
+*/
+
+table, tr {
+		border :  1px solid #333;
+}

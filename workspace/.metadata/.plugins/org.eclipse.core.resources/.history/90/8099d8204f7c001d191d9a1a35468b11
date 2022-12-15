@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>등록 이미지 관리</title>
+	<link rel="stylesheet" href="../css/main.css" />
+	
+</head>
+<body>
+	<h1>첨부이미지 관리 시스템</h1>
+	<table>
+		<tr>
+			<td>미리보기</td>
+			<td>작업</td>
+			<td>작성자</td>
+			<td>작성일</td>
+			<td>용량(KB)</td>
+			<td>추가작업</td>
+		</tr>
+			<td>
+			<link rel="../images/thumb2.png" href="고니골 빛 축제" />
+			</td>
+			<td>
+				<button>크게보기</button>
+				<button>다운로드</button>
+			</td>
+			<td>홍길동</td>
+			<td>2022-12-15</td>
+			<td>102 KB</td>
+			<td>
+				<button>삭제</button>
+				<button>이동</button>
+			</td>
+				
+		
+	
+	
+	</table>
+	
+	
+	
+</body>
+</html>
