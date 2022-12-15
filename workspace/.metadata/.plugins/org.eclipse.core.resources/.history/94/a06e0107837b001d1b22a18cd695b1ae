@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>자바 백엔드 개발자 프로필</title>
+	<style>
+	.icons{
+		display: flex;      /* 표시방법 : 플렉스 */
+		column-gap: 1.5rem; /* 컬럼-간격: 1rem만큼 띄어줘*/
+	}
+	</style>
+	
+</head>
+<body>
+	<h1>about</h1>
+ 	<img src="images/photo.png" alt="지원자 강미화" width="200">
+ 	<p>바로 지금이 시작할때다. </p>
+ 	<h5>새로운 꿈을 향해 열심히 달려가고 있는 강미화입니다. </h5>
+ 	<h3>social</h3>
+ 	<div class="icons">
+ 		<div>
+ 			<img src="images/blog.png" alt="link to blog">
+ 			<p>blog</p>
+ 		</div>
+ 		<div>
+ 			<img src="images/githup.png" alt="link to githup">
+ 			<p>githup</p>
+ 		</div>
+ 		<div>
+ 			<img src="images/katok.png" alt="link to katok">
+ 			<p>katok</p>
+ 		</div>
+ 	</div>
+ 	
+ 	
+</body>
+</html>

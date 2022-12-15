@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>문서에 이미지 요소 삽입하기</title>
+</head>
+<body>
+	<h1>이미지 삽입 명령</h1>
+	<p>웹문서에 이미지를 삽입해보기</p>
+	<img src="images/energy.png" alt="에너지 마크">
+	<img src="images/call.png" alt="전화걸기" width="150">
+</body>
+</html>

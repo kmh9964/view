@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>자바 백엔드 개발자 프로필</title>
+</head>
+<body>
+	<h1>이미지 삽입 명령</h1>
+	<p>자바 백엔드 개발자 지원자 프로필 </p>
+ 	<img src="images/photo.png" alt="지원자 강미화" width="140">
+</body>
+</html>
