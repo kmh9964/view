@@ -1,0 +1,97 @@
+@charset "UTF-8";
+*{ /* {앞에 있는 *는 공용선택자라는 뜻임, 항상 먼저 이렇게 초기화 스타일을 해야 된다. */
+	margin: 0; /* 바깥 여백을 0으로 바꿔서 없애란 뜻, 반대로 padding은 안쪽 여백이다. */
+}
+
+.d-none{
+	display: none; /* 표시:없음 -->숨길때 none이라고 한다.표시하지 않겠다는 뜻, 숨긴걸 들어낼때는 block를 쓴다 */
+}
+
+.logo-img{
+	/* background-color: gold;  배경색 : 노란색 */
+	/*text-align :center;  정렬 : 가운데  ->이건 공간의 폭을 모르는 상태에서 그냥 가운데로 정렬하고 싶을때 사용 */
+	width: 100px ; /* 가로폭: 100  */
+	height: 110px; /* 세로높이: 110 */
+	margin: 50px auto; /* 바깥 여백: 상,하 50만큼 떼어서 해주고 가운데 정렬해줘. (좌,우 알아서 자동으로 계산)*/
+}
+
+.menu{
+	background-color: #005891; /* 배경 색상을 나타내는 헥사 코드 : 16진수 색상코드를 알려줌 */
+	text-align :center; 
+	padding : 8px 0;/*안여백 : 상하 10, 좌우 0*/
+	margin : 30px;/*바깥여백:30으로 준다, 마진과 마진이 겹치면 큰 값만 적용된다.*/
+}
+
+.menu a{ /* <a>는 파란색,밑줄이 기본, 옆으로 쭈욱 생성된다. */
+	color: white; /* 글자의 색 : 하양 */
+	text-decoration: none;/* 덱스트-꾸밈: 없음  -> 밑줄을 없애줘라 */
+}
+
+.visual{
+	width: 800px ; /* 가로폭: 800 */
+	height: 500px; /* 세로높이: 500 */
+	margin: 15px auto; /* 바깥 여백: 상,하 15만큼 떼어서 해주고 가운데 정렬해줘. (좌,우 알아서 자동으로 계산)*/
+
+}
+
+.title-text{
+	text-align : center;
+	margin:15px 0;
+	/* text-align: center; ==> tac + tap키 누르면 알아서 나옴*/
+  
+}
+
+.tatle-text h2 { /* .tatle-text h2-->tatle-text의 h2만 적용 */
+	font-size: 22px;/* 글자크기:22 로 해줘*/
+	/*text-transform: uppercase;/*덱스트 -변형 :  대문자*/
+	/*text-transform: lowercase; 덱스트 -변형 :  소문자*/
+	/*text-transform: capitalize; 덱스트 -변형 :  문자를 감싸주기*/
+}
+
+.tatle-text p { /* .tatle-text p-->tatle-text의 p만 적용 */
+	font-size: 16px;/* 글자크기:16 로 해줘*/
+	color: #555555; /* 글자의 색 : #555555 */
+}
+
+.movies{
+	background-color: #f3f3f3; /* 색상을 나타내는 헥사 코드 : 16진수 색상코드를 알려줌 */
+	width: 600px ; /* 가로폭: 600 */
+	height: 300px; /* 세로높이: 300 */
+	margin: 20px auto; /* 바깥 여백: 상,하 30만큼 떼어서 해주고 가운데 정렬해줘. (좌,우 알아서 자동으로 계산)*/
+	
+	font-size: 0;/*글자가 없지만 이미지 사이의 공백도 없어주고 한줄로 나란히 나오게 하는 방법*/
+	}
+	
+.sns{
+	background-color: #f3f3f3; /* 색상을 나타내는 헥사 코드 : 16진수 색상코드를 알려줌 */
+	}
+	
+.cs, .sns, .address, .copy{
+	text-align :center; 
+}
+.cs{
+	margin: 30px 0;/*margin-top: 30px 0;로 쓰면 위쪽을 30만큼 떼어줘
+					 margin-bottom: 30px 0;로 쓰면 아래쪽으로 30만큼 떼어줘*/
+}
+.cs h3{
+	font-size: 15px;
+	color: #005891;
+}
+.cs p{
+	font-size: 30px;
+	color: #005891;
+}
+
+.hr{
+	color : #005891;
+}
+
+.address{
+	font-size:13px; 
+}
+
+.copy{
+		font-size: 11px; 
+}
+
+
